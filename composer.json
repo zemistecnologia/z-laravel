@@ -1,0 +1,12 @@
+{
+    "name": "zemis/z-laravel",
+    "description": "Laravel miscellaneous",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Zemis Tecnologia",
+            "email": "dev@zemis.com.br"
+        }
+    ],
+    "require": {}
+}
