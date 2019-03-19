@@ -10,5 +10,10 @@
             "email": "dev@zemis.com.br"
         }
     ],
-    "require": {}
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Zemis\\ZLaravel\\": "src/"
+        }
+    }
 }
