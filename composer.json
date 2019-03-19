@@ -2,6 +2,8 @@
     "name": "zemis/z-laravel",
     "description": "Laravel miscellaneous",
     "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable" : true,
     "authors": [
         {
             "name": "Zemis Tecnologia",
