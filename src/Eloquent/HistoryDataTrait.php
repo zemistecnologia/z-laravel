@@ -14,6 +14,10 @@ trait HistoryDataTrait
         $table->unsignedInteger('updated_by')->nullable();
         $table->unsignedInteger('deleted_by')->nullable();
 
+    }
+
+    public function addForeignHistory(Blueprint $table)
+    {
         $table->foreign('created_by')
             ->refereces('id')
             ->on('users')->onDelete('cascade')
