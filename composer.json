@@ -15,5 +15,12 @@
         "psr-4":{
             "Zemis\\ZLaravel\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zemis\\ZLaravel\\ZLaravelProvider.php"
+            ]
+        }
     }
 }
