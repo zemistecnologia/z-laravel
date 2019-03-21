@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Zemis\\ZLaravel\\ZLaravelProvider.php"
+                "Zemis\\ZLaravel\\ZLaravelProvider"
             ]
         }
     }
