@@ -19,17 +19,17 @@ trait HistoryDataTrait
     public function addForeignHistory(Blueprint $table)
     {
         $table->foreign('created_by')
-            ->refereces('id')
+            ->references('id')
             ->on('users')->onDelete('cascade')
         ;
 
         $table->foreign('updated_by')
-            ->refereces('id')
+            ->references('id')
             ->on('users')->onDelete('cascade')
         ;
 
         $table->foreign('deleted_by')
-            ->refereces('id')
+            ->references('id')
             ->on('users')->onDelete('cascade')
         ;
     }
